@@ -1,0 +1,22 @@
+################################
+#For first-time setup, uncomment
+#and use some password
+###############################
+#ramadda.install.password=somepassword
+
+#################################
+# Geo data
+#################################
+
+#NetCDF Operators - NCO 
+service.nco.ncwa=/usr/bin/ncwa
+
+#Climate data operators - CDO 
+service.cdo=/usr/bin/cdo
+
+
+#HDF5 tools 
+#service.hdf5.h5ls=/opt/local/bin/h5ls
+
+
+
