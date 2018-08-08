@@ -21,4 +21,5 @@ RUN apt-get update && apt-get install -y \
 
 COPY properties ${DATA_DIR}/.properties
 
-
+HEALTHCHECK --interval=30s --timeout=5s \
+  CMD curl -f http://localhost:8080/repository || exit 1 
